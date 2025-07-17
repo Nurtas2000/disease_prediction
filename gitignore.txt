@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build/installation files
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints
+
+# Testing/coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Logs
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# ML project specific
+########################
+
+# Model binaries (except pretrained models you want to track)
+*.pkl
+*.joblib
+*.h5
+*.tflite
+
+# Visualization outputs (track only code)
+*.png
+*.jpg
+*.pdf
+
+# Config files 
+*.yaml
+*.yml
+config.json
+

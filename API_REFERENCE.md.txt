@@ -1,0 +1,13 @@
+# Disease Prediction API Reference
+
+## Models
+### `DiseasePredictor`
+```python
+class DiseasePredictor:
+    """
+    Main class for disease prediction
+    
+    Methods:
+        predict(age, gender, bp, cholesterol, glucose, bmi, smoker)
+            Returns predicted disease probability
+    """
